@@ -96,7 +96,7 @@ if ($jsn["title"] == true){
    exit();
 
 }else{
-  echo "\033[1;32mWelcome ".$jsn["account"]["user"]["firstName"]."".$jsn["account"]["user"]["lastName"]."\n";
+  echo "\033[1;32mWelcome ".$jsn["account"]["user"]["yusron"]."".$jsn["account"]["user"]["syarif"]."\n";
   echo "\033[1;32mBallance \033[1;31m :\033[1;0m ".$jsn["account"]["balance"]["cash"]."\033[1;32m USD\n";
   echo "\033[1;32mSpin\033[1;31m      : \033[1;0m".$jsn["account"]["balance"]["spins"]."\n";
   echo "\033[1;32mReff Code\033[1;31m :\033[1;0m ".$jsn["account"]["user"]["referralCode"]."\n";
