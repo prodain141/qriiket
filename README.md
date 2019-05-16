@@ -1,0 +1,2 @@
+# qriiket
+autospin+claim
