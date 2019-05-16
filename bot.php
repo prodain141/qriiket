@@ -87,7 +87,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array("content-type: application/json; charset=UTF-8","device-type: Android","user-agent: okhttp/3.8.0"));
-curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(array("email" => $email,"password" => $password), true));
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(array("yusronsyarif@gmail.com" => $email,"@Syarif98" => $password), true));
 $result = curl_exec($ch);
 curl_close($ch);
 $jsn = json_decode($result, true);
